@@ -2,9 +2,6 @@
 // issueController.ts
 // import { RequestHandler } from 'express';
 import { Request, Response, NextFunction } from 'express';
-// 모델
-import { getIssuesQuery, newIssueQuery } from '../models/issueModel';
-
 // 유틸 / 헬퍼 함수
 import { validateAndMap } from '../utils/helpers';
 // import {
